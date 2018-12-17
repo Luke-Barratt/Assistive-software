@@ -60,6 +60,12 @@
     <Compile Include="WebBrowserForm.Designer.cs">
       <DependentUpon>WebBrowserForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="WebBrowserHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebBrowserHistoryForm.Designer.cs">
+      <DependentUpon>WebBrowserHistoryForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,6 +78,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="WebBrowserForm.resx">
+      <DependentUpon>WebBrowserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebBrowserHistoryForm.resx">
+      <DependentUpon>WebBrowserHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
