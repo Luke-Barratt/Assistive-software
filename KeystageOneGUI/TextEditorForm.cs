@@ -84,7 +84,7 @@ namespace KeystageOneGUI
         {
             richTextBox1.SelectAll();
         }
-
+        #region Design Menu Buttons 
         private void fontToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (fontDialog1.ShowDialog() == DialogResult.OK)
@@ -100,5 +100,6 @@ namespace KeystageOneGUI
                 richTextBox1.ForeColor = colorDialog1.Color;
             }
         }
+        #endregion
     }
 }

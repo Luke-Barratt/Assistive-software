@@ -12,7 +12,7 @@ namespace KeystageOneGUI
 {
     public partial class WebBrowserForm : Form
     {
-        public String HomeURL = "www.Google.com";
+        public String HomeURL = "www.google.com";
         public ArrayList HistoryArray = new ArrayList();
 
         public WebBrowserForm()
