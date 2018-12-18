@@ -30,7 +30,8 @@ namespace KeystageOneGUI
 
         private void WritingToolbtn_Click(object sender, EventArgs e)
         {
-
+            TextEditorForm textEditorForm = new TextEditorForm();
+            textEditorForm.ShowDialog();
         }
     }
 }

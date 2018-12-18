@@ -30,7 +30,7 @@
         {
             this.WebBrowserBtn = new System.Windows.Forms.Button();
             this.CalculatorBtn = new System.Windows.Forms.Button();
-            this.WritingToolbtn = new System.Windows.Forms.Button();
+            this.TextEditorBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // WebBrowserBtn
@@ -53,22 +53,22 @@
             this.CalculatorBtn.UseVisualStyleBackColor = true;
             this.CalculatorBtn.Click += new System.EventHandler(this.CalculatorBtn_Click);
             // 
-            // WritingToolbtn
+            // TextEditorBtn
             // 
-            this.WritingToolbtn.Location = new System.Drawing.Point(348, 75);
-            this.WritingToolbtn.Name = "WritingToolbtn";
-            this.WritingToolbtn.Size = new System.Drawing.Size(162, 82);
-            this.WritingToolbtn.TabIndex = 2;
-            this.WritingToolbtn.Text = "Write";
-            this.WritingToolbtn.UseVisualStyleBackColor = true;
-            this.WritingToolbtn.Click += new System.EventHandler(this.WritingToolbtn_Click);
+            this.TextEditorBtn.Location = new System.Drawing.Point(348, 75);
+            this.TextEditorBtn.Name = "TextEditorBtn";
+            this.TextEditorBtn.Size = new System.Drawing.Size(162, 82);
+            this.TextEditorBtn.TabIndex = 2;
+            this.TextEditorBtn.Text = "Write";
+            this.TextEditorBtn.UseVisualStyleBackColor = true;
+            this.TextEditorBtn.Click += new System.EventHandler(this.WritingToolbtn_Click);
             // 
             // MainMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(523, 224);
-            this.Controls.Add(this.WritingToolbtn);
+            this.Controls.Add(this.TextEditorBtn);
             this.Controls.Add(this.CalculatorBtn);
             this.Controls.Add(this.WebBrowserBtn);
             this.Name = "MainMenuForm";
@@ -81,7 +81,7 @@
 
         private System.Windows.Forms.Button WebBrowserBtn;
         private System.Windows.Forms.Button CalculatorBtn;
-        private System.Windows.Forms.Button WritingToolbtn;
+        private System.Windows.Forms.Button TextEditorBtn;
     }
 }
 
