@@ -84,5 +84,21 @@ namespace KeystageOneGUI
         {
             richTextBox1.SelectAll();
         }
+
+        private void fontToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (fontDialog1.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.Font = (fontDialog1.Font);
+            }
+        }
+
+        private void colorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.ForeColor = colorDialog1.Color;
+            }
+        }
     }
 }
