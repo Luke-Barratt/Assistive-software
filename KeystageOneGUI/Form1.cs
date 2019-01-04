@@ -25,7 +25,8 @@ namespace KeystageOneGUI
 
         private void CalculatorBtn_Click(object sender, EventArgs e)
         {
-
+            CalculatorForm calculatorForm = new CalculatorForm();
+            calculatorForm.ShowDialog();
         }
 
         private void WritingToolbtn_Click(object sender, EventArgs e)

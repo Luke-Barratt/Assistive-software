@@ -24,7 +24,7 @@ namespace KeystageOneGUI
         {
             webBrowser.Navigate(URLTxtBox.Text);
         }
-        // When home button is click web browser will navigate to HomeURL.
+        
         private void GoToHomeBtn_Click(object sender, EventArgs e)
         {
             webBrowser.Navigate(HomeURL);

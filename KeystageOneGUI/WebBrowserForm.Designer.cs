@@ -48,6 +48,7 @@
             // 
             // PreviousPageBtn
             // 
+            this.PreviousPageBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PreviousPageBtn.Location = new System.Drawing.Point(12, 5);
             this.PreviousPageBtn.Name = "PreviousPageBtn";
             this.PreviousPageBtn.Size = new System.Drawing.Size(68, 32);
@@ -58,6 +59,7 @@
             // 
             // ForwardPageBtn
             // 
+            this.ForwardPageBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForwardPageBtn.Location = new System.Drawing.Point(86, 5);
             this.ForwardPageBtn.Name = "ForwardPageBtn";
             this.ForwardPageBtn.Size = new System.Drawing.Size(68, 32);
@@ -68,6 +70,7 @@
             // 
             // GoToHomeBtn
             // 
+            this.GoToHomeBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GoToHomeBtn.Location = new System.Drawing.Point(234, 5);
             this.GoToHomeBtn.Name = "GoToHomeBtn";
             this.GoToHomeBtn.Size = new System.Drawing.Size(68, 32);
@@ -78,6 +81,7 @@
             // 
             // SearchBtn
             // 
+            this.SearchBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SearchBtn.Location = new System.Drawing.Point(963, 5);
             this.SearchBtn.Name = "SearchBtn";
             this.SearchBtn.Size = new System.Drawing.Size(68, 32);
@@ -88,6 +92,7 @@
             // 
             // RefreshPageBtn
             // 
+            this.RefreshPageBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RefreshPageBtn.Location = new System.Drawing.Point(160, 5);
             this.RefreshPageBtn.Name = "RefreshPageBtn";
             this.RefreshPageBtn.Size = new System.Drawing.Size(68, 32);
@@ -98,6 +103,7 @@
             // 
             // SetNewHomePageBtn
             // 
+            this.SetNewHomePageBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SetNewHomePageBtn.Location = new System.Drawing.Point(1037, 5);
             this.SetNewHomePageBtn.Name = "SetNewHomePageBtn";
             this.SetNewHomePageBtn.Size = new System.Drawing.Size(68, 32);
@@ -108,6 +114,7 @@
             // 
             // DisplayHistoryBtn
             // 
+            this.DisplayHistoryBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DisplayHistoryBtn.Location = new System.Drawing.Point(1111, 5);
             this.DisplayHistoryBtn.Name = "DisplayHistoryBtn";
             this.DisplayHistoryBtn.Size = new System.Drawing.Size(68, 32);
@@ -129,6 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(1193, 840);
             this.Controls.Add(this.webBrowser);
             this.Controls.Add(this.DisplayHistoryBtn);

@@ -42,6 +42,7 @@
             // 
             // DeleteHistoryBtn
             // 
+            this.DeleteHistoryBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteHistoryBtn.Location = new System.Drawing.Point(357, 402);
             this.DeleteHistoryBtn.Name = "DeleteHistoryBtn";
             this.DeleteHistoryBtn.Size = new System.Drawing.Size(75, 34);
@@ -54,6 +55,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(452, 443);
             this.Controls.Add(this.DeleteHistoryBtn);
             this.Controls.Add(this.HistoryListBox);

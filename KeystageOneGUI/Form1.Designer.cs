@@ -35,6 +35,7 @@
             // 
             // WebBrowserBtn
             // 
+            this.WebBrowserBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WebBrowserBtn.Location = new System.Drawing.Point(12, 75);
             this.WebBrowserBtn.Name = "WebBrowserBtn";
             this.WebBrowserBtn.Size = new System.Drawing.Size(162, 82);
@@ -45,6 +46,8 @@
             // 
             // CalculatorBtn
             // 
+            this.CalculatorBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CalculatorBtn.ForeColor = System.Drawing.SystemColors.ControlText;
             this.CalculatorBtn.Location = new System.Drawing.Point(180, 75);
             this.CalculatorBtn.Name = "CalculatorBtn";
             this.CalculatorBtn.Size = new System.Drawing.Size(162, 82);
@@ -55,6 +58,7 @@
             // 
             // TextEditorBtn
             // 
+            this.TextEditorBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextEditorBtn.Location = new System.Drawing.Point(348, 75);
             this.TextEditorBtn.Name = "TextEditorBtn";
             this.TextEditorBtn.Size = new System.Drawing.Size(162, 82);
@@ -67,11 +71,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(523, 224);
+            this.BackColor = System.Drawing.Color.SkyBlue;
+            this.ClientSize = new System.Drawing.Size(538, 226);
             this.Controls.Add(this.TextEditorBtn);
             this.Controls.Add(this.CalculatorBtn);
             this.Controls.Add(this.WebBrowserBtn);
             this.Name = "MainMenuForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Menu";
             this.ResumeLayout(false);
 
