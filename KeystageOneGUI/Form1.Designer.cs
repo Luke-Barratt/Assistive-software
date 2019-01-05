@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenuForm));
             this.WebBrowserBtn = new System.Windows.Forms.Button();
             this.CalculatorBtn = new System.Windows.Forms.Button();
             this.TextEditorBtn = new System.Windows.Forms.Button();
@@ -36,11 +37,11 @@
             // WebBrowserBtn
             // 
             this.WebBrowserBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WebBrowserBtn.Image = ((System.Drawing.Image)(resources.GetObject("WebBrowserBtn.Image")));
             this.WebBrowserBtn.Location = new System.Drawing.Point(12, 75);
             this.WebBrowserBtn.Name = "WebBrowserBtn";
             this.WebBrowserBtn.Size = new System.Drawing.Size(162, 82);
             this.WebBrowserBtn.TabIndex = 0;
-            this.WebBrowserBtn.Text = "Web Browser";
             this.WebBrowserBtn.UseVisualStyleBackColor = true;
             this.WebBrowserBtn.Click += new System.EventHandler(this.WebBrowserBtn_Click);
             // 
@@ -48,22 +49,22 @@
             // 
             this.CalculatorBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CalculatorBtn.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.CalculatorBtn.Image = ((System.Drawing.Image)(resources.GetObject("CalculatorBtn.Image")));
             this.CalculatorBtn.Location = new System.Drawing.Point(180, 75);
             this.CalculatorBtn.Name = "CalculatorBtn";
             this.CalculatorBtn.Size = new System.Drawing.Size(162, 82);
             this.CalculatorBtn.TabIndex = 1;
-            this.CalculatorBtn.Text = "Calculator";
             this.CalculatorBtn.UseVisualStyleBackColor = true;
             this.CalculatorBtn.Click += new System.EventHandler(this.CalculatorBtn_Click);
             // 
             // TextEditorBtn
             // 
             this.TextEditorBtn.Font = new System.Drawing.Font("Segoe UI Symbol", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextEditorBtn.Image = ((System.Drawing.Image)(resources.GetObject("TextEditorBtn.Image")));
             this.TextEditorBtn.Location = new System.Drawing.Point(348, 75);
             this.TextEditorBtn.Name = "TextEditorBtn";
             this.TextEditorBtn.Size = new System.Drawing.Size(162, 82);
             this.TextEditorBtn.TabIndex = 2;
-            this.TextEditorBtn.Text = "Write";
             this.TextEditorBtn.UseVisualStyleBackColor = true;
             this.TextEditorBtn.Click += new System.EventHandler(this.WritingToolbtn_Click);
             // 

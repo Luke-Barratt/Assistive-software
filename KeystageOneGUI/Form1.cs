@@ -19,19 +19,25 @@ namespace KeystageOneGUI
 
         private void WebBrowserBtn_Click(object sender, EventArgs e)
         {
+            // Creates a new web browser instance.
             WebBrowserForm webBrowserForm = new WebBrowserForm();
+            // Opens web browser form.
             webBrowserForm.ShowDialog();
         }
 
         private void CalculatorBtn_Click(object sender, EventArgs e)
         {
+            // Creates a new calculator instance
             CalculatorForm calculatorForm = new CalculatorForm();
+            // Opens calculator form.
             calculatorForm.ShowDialog();
         }
 
         private void WritingToolbtn_Click(object sender, EventArgs e)
         {
+            //Creates a new Text Editor instance.
             TextEditorForm textEditorForm = new TextEditorForm();
+            // Opens Text Editor form.
             textEditorForm.ShowDialog();
         }
     }
